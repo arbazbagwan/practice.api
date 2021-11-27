@@ -10,6 +10,15 @@ app.get('/', (req, res) => {
     // Ending the response
     res.end()
 })
+
+app.get('/a', (req, res) => {
+ 
+    // Sending the response
+    res.send('Hello World! aaaaaaaaa')
+    
+    // Ending the response
+    res.end()
+})
  
 // Establishing the port
 const PORT = process.env.PORT ||5000;
